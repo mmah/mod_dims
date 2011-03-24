@@ -48,6 +48,8 @@ module dims_module;
 
 #define DIMS_CURL_SHARED_KEY "dims_curl_shared"
 
+#define CURLOPT_TIMEOUT_MS 30000
+
 #define MAGICK_CHECK(func, d) \
     do {\
         if(func == MagickFalse) \
